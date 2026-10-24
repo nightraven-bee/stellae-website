@@ -1,0 +1,13 @@
+/* Only the requested beta QR entry and legal footer additions. */
+#download-dialog {max-height:90dvh;overflow:auto;}
+#download-dialog .modal-intro {margin-bottom:1rem;}
+.channel-entry {display:flex;flex-direction:column;align-items:center;gap:1rem;text-align:center;}
+.channel-qr {width:min(100%,280px);aspect-ratio:4/5;overflow:hidden;border-radius:16px;background:#fff;flex-shrink:0;}
+.channel-qr img {display:block;width:120%;max-width:none;height:auto;margin-left:-10%;margin-top:-30%;}
+.channel-instructions {margin:0;font-size:.9rem;line-height:1.7;color:var(--muted,#c3b2cc);}
+#download-dialog .modal-note {margin-top:1rem;}
+#download-dialog .modal-note strong {font-weight:500;overflow-wrap:anywhere;}
+.footer-bottom {flex-wrap:wrap;}
+#public-security {white-space:nowrap;}
+@media(max-height:800px) { .channel-qr {width:min(100%,220px);} #download-dialog {padding:clamp(20px,4vh,40px);} }
+@media(max-width:700px) { .channel-qr {width:min(100%,240px);} #download-dialog .channel-instructions {font-size:.85rem;} #public-security {font-size:inherit;} }

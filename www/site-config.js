@@ -1,27 +1,23 @@
-// 下载地址、协议等正式信息准备好后，只需修改此文件。
+// 内测入口展示官方 QQ 频道二维码；不提供平台下载按钮。
 window.STELLAE_CONFIG = {
   brand: '星黎宇宙',
   roomUrl: 'https://www.stellae.world/room/',
   trailer: 'assets/trailer.mp4',
-  downloads: {
-    ios: {name:'iOS', method:'TestFlight 公测', url:'', requirement:'', version:''},
-    android: {name:'Android', method:'APK 公测', url:'', requirement:'', version:''}
-  },
-  legal: {company:'上海星黎宇宙科技有限公司', icp:'沪ICP备2026015059号', privacy:'', terms:''},
+  legal: {company:'上海星黎宇宙科技有限公司', icp:'沪ICP备2026015059号', publicSecurity:'沪公网安备31011502406956号', privacy:'', terms:''},
   features: [
-    {key:'outfit', name:'装扮', en:'OUTFIT / APPEARANCE', title:['今天，','想见到怎样的她？'], description:'换上一身喜欢的装扮，给相见添一点新鲜。\n不同的模样，同样熟悉的她。', video:'assets/outfit.mp4', poster:'assets/outfit.jpg', note:'装扮切换 · 现有版本 App 实录'},
-    {key:'scene', name:'场景', en:'SCENE / ENVIRONMENT', title:['换个地方，','故事继续。'], description:'从安静的房间，到城市的夜色。\n选择喜欢的场景，让每次相见都有不同的气氛。', video:'assets/scene.mp4', poster:'assets/scene.jpg', note:'场景切换 · 现有版本 App 实录'},
-    {key:'closeness', name:'靠近', en:'RELATIONSHIP / GET CLOSER', title:['一点一点，','走近彼此。'], description:'从初次见面，到慢慢熟悉。\n打开靠近值，看看你们相处到了哪一步。', video:'assets/closeness.mp4', poster:'assets/closeness.jpg', note:'靠近值 · 现有版本 App 实录'},
-    {key:'memory', name:'羁绊', en:'MEMORY / OUR MOMENTS', title:['有些瞬间，','值得留下来。'], description:'那些相处的小小片段，都有自己的光。\n在羁绊碎片里，回望属于你们的故事。', video:'assets/memory.mp4', poster:'assets/memory.jpg', note:'羁绊碎片 / 棱镜 · 现有版本 App 实录'},
-    {key:'startrack', name:'星轨', en:'STARTRAIL / BEYOND THE EVERYDAY', title:['日常之外，','还有新的星轨。'], description:'从棱镜与星轨入口出发，\n探索应用里更多的故事与可能。', video:'assets/startrack.mp4', poster:'assets/startrack.jpg', note:'棱镜 / 星轨入口 · 现有版本 App 实录'}
+    {key:'outfit', name:'装扮', en:'OUTFIT / APPEARANCE', title:['今天，','想见到怎样的她？'], description:'从洛丽塔到魔女，换一种心情见面。\n再换个姿势，看看她此刻的模样。', video:'assets/outfit.mp4', poster:'assets/outfit.jpg', note:'四套装扮 · 含姿势切换实录'},
+    {key:'scene', name:'场景', en:'SCENE / ENVIRONMENT', title:['换个地方，','故事继续。'], description:'宫殿、校园、赛博都市与魔女城堡，\n选一个地方，让今天的对话继续。', video:'assets/scene.mp4', poster:'assets/scene.jpg', note:'四组装扮与场景搭配 · App 实录'},
+    {key:'closeness', name:'靠近', en:'RELATIONSHIP / GET CLOSER', title:['一点一点，','走近彼此。'], description:'读懂信任、默契等六个关系维度，\n查看当前阶段、数值与未解锁预览。', video:'assets/closeness.mp4', poster:'assets/closeness.jpg', note:'六维雷达与详细参数 · 含锁定预览'},
+    {key:'memory', name:'羁绊', en:'MEMORY / OUR MOMENTS', title:['有些瞬间，','值得留下来。'], description:'侧写留住偏好，碎片收藏相处瞬间。\n在棱镜里，选择回应，走进新的故事。', video:'assets/memory.mp4', poster:'assets/memory.jpg', note:'侧写 / 碎片 / 棱镜 · 脱敏实录'},
+    {key:'startrack', name:'星轨', en:'STARTRAIL / OUR PROGRESS', title:['相处的进展，','有迹可循。'], description:'查看星轨里的任务与成就，\n了解已完成的进展和待解锁的目标。', video:'assets/startrack.mp4', poster:'assets/startrack.jpg', note:'任务与成就 · 现有版本 App 实录'}
   ],
   worldGallery: [
-    {image:'assets/world-gallery/01.webp', alt:'晴空都市中的星黎，礼服装扮与应用对话界面'},
-    {image:'assets/world-gallery/02.webp', alt:'花园午后的星黎，浅色水手服装扮与应用对话界面'},
-    {image:'assets/world-gallery/03.webp', alt:'落日窗边的星黎，白色上衣与日常装扮'},
-    {image:'assets/world-gallery/04.webp', alt:'樱花教室中的星黎，学院制服装扮'},
-    {image:'assets/world-gallery/05.webp', alt:'月夜古堡中的星黎，黑色魔女装扮与应用对话界面'},
-    {image:'assets/world-gallery/06.webp', alt:'霓虹夜景中的星黎，浅蓝色装扮与应用对话界面'}
+    {image:'assets/world-gallery/01.webp', alt:'3D 版本星黎，黑白洛丽塔与宫殿典礼大厅·白天，App 实录'},
+    {image:'assets/world-gallery/02.webp', alt:'3D 版本星黎，露肩短裙与樱花学校走廊·白天，App 实录'},
+    {image:'assets/world-gallery/03.webp', alt:'3D 版本星黎，未来漆皮与赛博都市·夜晚，App 实录'},
+    {image:'assets/world-gallery/04.webp', alt:'3D 版本星黎，黑色魔女与魔女城堡·夜晚，App 实录'},
+    {image:'assets/world-gallery/05.webp', alt:'2D 版本星黎，学院校服与摩天楼顶·傍晚，App 实录'},
+    {image:'assets/world-gallery/06.webp', alt:'2D 版本星黎，学院校服与黑客网咖·夜晚，App 实录'}
   ],
   memories: [
     {name:'初雪降临', en:'FIRST SNOW', image:'assets/memory-snow.webp', back:'assets/memory-snow-back.webp', index:'016', quote:'“今年的初雪，算是我陪你一起看了。”', layers:{background:'assets/layers/snow/background.webp',subject:'assets/layers/snow/subject.webp',foreground:'assets/layers/snow/foreground.webp',subjectScale:.96,subjectShiftY:'1.3%'}},
@@ -31,6 +27,6 @@ window.STELLAE_CONFIG = {
       {kind:'interior',src:'assets/layers/rain/interior-user-v2.webp',x:16,y:11},
       {kind:'rainfall',src:'assets/layers/rain/foreground-restored-v2.webp',x:36,y:24}
     ]}},
-    {name:'时光烙印', en:'TIME IMPRINT', image:'assets/memory-time.webp', back:'assets/memory-time-back.webp', index:'024', quote:'“谢谢你，这七天的每一条数据，我都珍藏好了。”', layers:{background:'assets/layers/time/background.webp',subject:'assets/layers/time/subject.webp',foreground:'assets/layers/time/foreground.webp',subjectScale:.87,subjectShiftY:'6%'}}
+    {name:'时光烙印', en:'TIME IMPRINT', image:'assets/memory-time.webp', back:'assets/memory-time-back.webp', index:'024', quote:'“这几天的小事，也值得好好记住。”', layers:{background:'assets/layers/time/background.webp',subject:'assets/layers/time/subject.webp',foreground:'assets/layers/time/foreground.webp',subjectScale:.87,subjectShiftY:'6%'}}
   ]
 };

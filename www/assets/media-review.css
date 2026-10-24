@@ -1,0 +1,3 @@
+/* Requested removal of the still-gallery double frame; motion unchanged. */
+.world-gallery-slide {background:transparent;border-color:transparent;box-shadow:none;border-radius:0;}
+.conversation-avatar {object-position:50% 20%;}
